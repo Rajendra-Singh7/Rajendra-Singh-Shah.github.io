@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fas fa-chart-line"></i>
+                <span>DataPortfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="path/to/your/resume.pdf" class="resume-link" download>
+                    <i class="fas fa-download"></i> Resume
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Rajendra Singh</span></h1>
+                <h2>Data Analyst & ML Enthusiast</h2>
+                <p class="hero-description">Transforming complex data into meaningful insights through data analysis, machine learning, and compelling visualizations</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">
+                        <i class="fas fa-chart-bar"></i> View My Work
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <i class="fas fa-envelope"></i> Get in Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Technical Skills</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Passion for Data</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>I am a data analyst passionate about transforming raw data into meaningful business insights. With expertise in Python, SQL, and BI tools, I specialize in creating interactive dashboards and predictive models that drive data-driven decision making. My approach combines technical precision with clear communication to deliver actionable insights that solve real business challenges.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Core Skills</h4>
+                            <ul class="skills-list">
+                                <li>Data Analysis & Visualization</li>
+                                <li>Statistical Analysis</li>
+                                <li>Data Storytelling</li>
+                                <li>Project Management</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Technical Tools</h4>
+                            <ul class="skills-list">
+                                <li>Python Programming</li>
+                                <li>SQL & MySQL</li>
+                                <li>Excel & VBA</li>
+                                <li>Power BI & Tableau</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Advanced Skills</h4>
+                            <ul class="skills-list">
+                                <li>Machine Learning</li>
+                                <li>Cloud Platforms (AWS & Azure)</li>
+                                <li>Data Cleaning & Preprocessing</li>
+                                <li>Business Intelligence</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-image">
+                        <img src="images/profile pic.jpg" alt="Rajendra Singh">
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="detail-content">
+                                <h4>Education</h4>
+                                <p>BSc Computer Science</p>
+                                <p>SPPU</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-certificate"></i>
+                            <div class="detail-content">
+                                <h4>Certifications</h4>
+                                <p>Data Analysis Certification</p>
+                                <p>Machine Learning Certification</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-trophy"></i>
+                            <div class="detail-content">
+                                <h4>Achievements</h4>
+                                <p>7+ Data Analysis Projects</p>
+                                <p>3+ Machine Learning Models</p>
+                                <p>4+ Interactive Dashboards</p>
+                                <p>2+ Database Designs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            
+            <div class="project-stats">
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Total Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Python Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">SQL Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">BI Projects</div>
+                </div>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="sql">SQL</button>
+                <button class="filter-btn" data-filter="excel">Excel</button>
+                <button class="filter-btn" data-filter="powerbi">Power BI</button>
+                <button class="filter-btn" data-filter="machinelearning">Machine Learning</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="images/python-project.jpg" alt="Python Data Analysis Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="Python">Python</span>
+                            <span class="project-tag" data-tool="Pandas">Pandas</span>
+                            <span class="project-tag" data-tool="Matplotlib">Matplotlib</span>
+                        </div>
+                        <h3>Data Analysis Project</h3>
+                        <p>Analysis of sales data using Python and visualization tools.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="sql">
+                    <div class="project-image">
+                        <img src="images/sql_assignment_cover.png" alt="SQL Retail Sales Analysis Project">
+                        <div class="project-preview">
+                            <a href="https://github.com/Rajendra-Singh7/sql_retail_sales_project" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="SQL">SQL</span>
+                            <span class="project-tag" data-tool="PostgreSQL">PostgreSQL</span>
+                        </div>
+                        <h3>SQL Retail Sales Analysis Project</h3>
+                        <p>SQL-based analysis of retail sales to identify trends and customer insights.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajendra-Singh7/sql_retail_sales_project" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Rajendra-Singh7/sql_retail_sales_project/blob/main/sql_retail_query.sql" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="r">
+                    <div class="project-image">
+                        <img src="images/r-project.jpg" alt="R Statistical Analysis Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="R">R</span>
+                            <span class="project-tag" data-tool="ggplot2">ggplot2</span>
+                        </div>
+                        <h3>Statistical Analysis</h3>
+                        <p>Statistical modeling and visualization using R programming.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="tableau">
+                    <div class="project-image">
+                        <img src="images/tableau-project.jpg" alt="Tableau Dashboard Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="Tableau">Tableau</span>
+                        </div>
+                        <h3>Business Dashboard</h3>
+                        <p>Interactive business intelligence dashboard using Tableau.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="powerbi">
+                    <div class="project-image">
+                        <img src="images/powerbi-project.jpg" alt="Power BI Dashboard Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="Power BI">Power BI</span>
+                        </div>
+                        <h3>Sales Analytics Dashboard</h3>
+                        <p>Real-time sales analytics dashboard using Power BI.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="excel">
+                    <div class="project-image">
+                        <img src="images/excel-project.jpg" alt="Excel Financial Analysis Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="Excel">Excel</span>
+                            <span class="project-tag" data-tool="VBA">VBA</span>
+                        </div>
+                        <h3>Financial Analysis Dashboard</h3>
+                        <p>Advanced financial modeling and analysis using Excel and VBA.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="machinelearning">
+                    <div class="project-image">
+                        <img src="images/ml-project.jpg" alt="Machine Learning Project">
+                        <div class="project-preview">
+                            <a href="#" class="preview-button">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag" data-tool="Machine Learning">Machine Learning</span>
+                            <span class="project-tag" data-tool="Scikit-learn">Scikit-learn</span>
+                            <span class="project-tag" data-tool="TensorFlow">TensorFlow</span>
+                        </div>
+                        <h3>Predictive Analytics Model</h3>
+                        <p>Customer churn prediction using machine learning algorithms.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>shahrajendrasingh1@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>linkedin.com/in/rajendra-singh-shah</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p>github.com/Rajendra-Singh7</p>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/xrbppvyp" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rajendra Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
